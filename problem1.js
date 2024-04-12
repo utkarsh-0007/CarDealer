@@ -3,7 +3,7 @@ function problem1(arr, value) {
     if (!Array.isArray(arr)) {
       return ('Inventory should be of type array');
     }
-    // Check if  thevalue is greater than 0
+    // Check if value is greater than 0
     if (value <= 0) {
       return ('Id should be greater than 0');
     }
