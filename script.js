@@ -70,7 +70,7 @@ console.log('Problem3 Sorted modelNames: ', modelNames);
 const CarYears = problem4(inventory);
 console.log('Problem4 for CarYears: ', CarYears);
 // Executing problem5 for finding the number of cars that are older than  year 2000
-const OlderCars = problem5(CarYears);
+const OlderCars = problem5(CarYears,2001);
 console.log('Problem5 OlderCars: ',OlderCars);
 // Executing problem6 for getting only audi and bmw cars in an array  
 const AudiandBMW = problem6(inventory)
